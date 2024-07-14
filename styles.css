@@ -1,0 +1,38 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001d3d;
+  overflow: hidden;
+  position: relative;
+}
+  
+.container {
+  text-align: center;
+  z-index: 1;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #003566;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: #ffc300;
+}
